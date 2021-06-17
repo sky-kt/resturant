@@ -1,0 +1,3 @@
+Add foods to display under "Menu"
+Blur background image
+Minor bug fixes
