@@ -46,4 +46,5 @@ function addHeaderFunctionality() {
     about.addEventListener("click", LoadAbout)
     menu.addEventListener("click", LoadMenu)
     contactUs.addEventListener("click", LoadReachUs)
+    console.log('functionality header added')
 }

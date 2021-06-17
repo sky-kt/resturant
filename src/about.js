@@ -7,7 +7,7 @@ export let loadAbout = () => {
     title.setAttribute('class', 'font')
 
     let aboutStyler = document.createElement('div')
-    aboutStyler.setAttribute('id', 'aboutStyler')
+    aboutStyler.setAttribute('class', 'aboutStyler')
 
     let aboutContainer = document.createElement('div')
     aboutContainer.setAttribute('class', 'aboutContainer')
@@ -18,7 +18,7 @@ export let loadAbout = () => {
     aboutText.setAttribute('id', 'introParagraph')
 
     let ownerPhoto = document.createElement("img")
-    ownerPhoto.src = "../gustavo.png"
+    ownerPhoto.src = "../images/gustavo.png"
     ownerPhoto.alt = "Our founder, Gustavo"
     ownerPhoto.setAttribute('id', 'gustavoPFP')
 
@@ -29,6 +29,6 @@ export let loadAbout = () => {
     aboutStyler.appendChild(aboutContainer)
     content.appendChild(title)
     content.appendChild(aboutStyler)
-    
+
     console.log('about loaded')
 }

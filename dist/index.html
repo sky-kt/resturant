@@ -28,11 +28,6 @@
                 border-radius: 200px;
             }
 
-            #aboutStyler {
-                display: flex;
-                justify-content: center;
-            }
-
             #header {
                 display: flex;
                 justify-content: space-evenly;
@@ -41,12 +36,23 @@
                 height: 60px;
                 width: 100%;
                 top: 0px;
-                background-color: rgba(255, 0, 0, 0.8);
+                left: 0px;
+                background-color: rgba(255, 0, 0, 1);
             }
 
             .font {
                 font-family: Pridi, Arial;
                 color: rgb(0, 0, 0);
+            }
+
+            .aboutStyler {
+                display: flex;
+                justify-content: center;
+            }
+
+            .menuStyler {
+                display: flex;
+                justify-content: center;
             }
 
             .aboutContainer {
@@ -59,12 +65,59 @@
                 border-radius: 10px;
             }
 
+            .menuContainer {
+                border-radius: 10px;
+                display: grid;
+                grid-template-columns: repeat(2, 400px);
+                grid-template-rows: repeat(3, 400px);
+                grid-gap: 15px 15px; 
+            }
+
             .headerOption {
                 font-size: 20px;
                 text-align: center;
                 width: 200px;
-                background-color: rgba(255, 255, 0, 0.6);
+                background-color: rgba(255, 255, 0, 0.7);
                 border-radius: 5px;
+            }
+
+            .menuItem {
+                background-color: rgba(255, 179, 0, 1);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: space-around;
+                text-align: center;
+                flex-wrap: wrap;
+                opacity: 0.7;
+            }
+
+            .menuItem:hover {
+                animation-duration: 1s;
+                animation-name: turnOrange;
+                animation-fill-mode: forwards;
+            }
+
+            @keyframes turnOrange {
+                100% {
+                    background-color: rgb(255, 94, 0);
+                }
+            }
+
+            .foodName {
+                width: 100%;
+            }
+
+            .foodDescription {
+                width: 100%;
+            }
+
+            .foodImage {
+                float: left;
+                width:  300px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 50px;
             }
 
             .headerOption:hover {
@@ -73,7 +126,7 @@
             }
 
             .chickenBackground {
-                background: url(../fchicken.jpg);
+                background: url(../images/blurredChicken.jpg);
                 background-attachment: fixed;
                 background-size: cover;
             }
