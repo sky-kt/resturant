@@ -29,6 +29,4 @@ export let loadAbout = () => {
     aboutStyler.appendChild(aboutContainer)
     content.appendChild(title)
     content.appendChild(aboutStyler)
-
-    console.log('about loaded')
 }

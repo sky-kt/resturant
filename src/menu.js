@@ -27,49 +27,42 @@ export let loadMenu = () => {
         let foodNameNode, foodDescriptionNode
         switch (i) {
             case 0:
-                console.log(i)
                 foodNameNode = document.createTextNode("Curly Fries")
                 foodDescriptionNode = document.createTextNode("Russet Potatoes")
                 foodImage.src = "../images/curlyFries.jpg"
                 foodImage.alt = "Image of curly fries"
                 break
             case 1:
-                console.log(i)
                 foodNameNode = document.createTextNode("Breakfast Burrito")
                 foodDescriptionNode = document.createTextNode("Flour tortilla, ground beef, rice, egg, guacamole")
                 foodImage.src = "../images/burrito.jpeg"
                 foodImage.alt = "Image of breakfast burrito"
                 break
             case 2:
-                console.log(i)
                 foodNameNode = document.createTextNode("El Pollo Frito")
                 foodDescriptionNode = document.createTextNode("Fried chicken, the spiciest of spices")
                 foodImage.src = "../images/friedChicken.jpg"
                 foodImage.alt = "Image of fried chicken"
                 break
             case 3:
-                console.log(i)
                 foodNameNode = document.createTextNode("Quesadilla")
                 foodDescriptionNode = document.createTextNode("Cheese, handmade corn tortillas")
                 foodImage.src = "../images/quesadilla.webp"
                 foodImage.alt = "Image of quesadilla"
                 break
             case 4:
-                console.log(i)
                 foodNameNode = document.createTextNode("Cheeseburger")
                 foodDescriptionNode = document.createTextNode("Beef patty, American cheese, brioche buns")
                 foodImage.src = "../images/cheeseBurger.jpg"
                 foodImage.alt = "Image of cheeseburger"
                 break
             case 5:
-                console.log(i)
                 foodNameNode = document.createTextNode("[REDACTED]")
                 foodDescriptionNode = document.createTextNode("Unnamed substance")
                 foodImage.src = "../images/meth.jpg"
                 foodImage.alt = "Image of meth"
                 break
             default:
-                console.log(i)
                 break
         }
         foodName.setAttribute('class', 'foodName')
@@ -90,6 +83,4 @@ export let loadMenu = () => {
     menuStyler.appendChild(menuContainer)
     content.prepend(menuStyler)
     content.prepend(title)
-
-    console.log('menu loaded??')
 }

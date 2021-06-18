@@ -31,5 +31,4 @@ export let loadConstants = () => {
     header.appendChild(headerOption3)
 
     content.appendChild(header)
-    console.log('constants loaded')
 }

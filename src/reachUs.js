@@ -45,7 +45,6 @@ export let loadReachUs = () => {
                 individualLink.setAttribute('id', 'youtube')
                 break;
             default:
-                console.log('Error! Cannot create text node.')
                 break;
         }
         individualLink.setAttribute('class', 'individualLink')
@@ -63,7 +62,4 @@ export let loadReachUs = () => {
     entireInfoContainer.appendChild(socialMediaLinks)
 
     content.appendChild(entireInfoContainer)
-
-    console.log('menu loaded')
-    //now add link capabilities to buttons
 }

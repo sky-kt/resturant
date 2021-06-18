@@ -7,25 +7,21 @@ LoadReachUs()
 addHeaderFunctionality()
 
 function LoadAbout() {
-    console.log('loading about')
     restartPage()
     loadAbout()
 }
 
 function LoadMenu() {
-    console.log('loading menu')
     restartPage()
     loadMenu()
 }
 
 function LoadReachUs() {
-    console.log('loading contact us')
     restartPage()
     loadReachUs()
     addButtonFunctionality()
 }
 
-//for resetting page
 function restartPage() {
     removeChildNodes()
     loadConstants()
@@ -35,7 +31,6 @@ function restartPage() {
 function removeChildNodes() {
     let content = document.getElementById("content")
     while (content.firstChild) {
-        console.log(content.firstChild)
         content.removeChild(content.firstChild)
     }
 }
@@ -47,7 +42,6 @@ function addHeaderFunctionality() {
     about.addEventListener("click", LoadAbout)
     menu.addEventListener("click", LoadMenu)
     contactUs.addEventListener("click", LoadReachUs)
-    console.log('functionality header added')
 }
 
 function addButtonFunctionality() {
