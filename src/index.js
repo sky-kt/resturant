@@ -3,7 +3,7 @@ import { loadConstants } from "./constants.js"
 import { loadMenu } from "./menu.js"
 import { loadReachUs } from "./reachUs.js"
 
-LoadReachUs()
+LoadAbout()
 addHeaderFunctionality()
 
 function LoadAbout() {
