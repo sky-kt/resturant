@@ -54,7 +54,7 @@ export let loadReachUs = () => {
     }
 
     let locationImage = document.createElement('img')
-    locationImage.src = "../images/maps.png"
+    locationImage.src = "./images/maps.png"
     locationImage.alt = "Location of resturant on map"
     locationImage.setAttribute('id', 'map')
 

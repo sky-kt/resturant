@@ -29,37 +29,37 @@ export let loadMenu = () => {
             case 0:
                 foodNameNode = document.createTextNode("Curly Fries")
                 foodDescriptionNode = document.createTextNode("Russet Potatoes")
-                foodImage.src = "../images/curlyFries.jpg"
+                foodImage.src = "./images/curlyFries.jpg"
                 foodImage.alt = "Image of curly fries"
                 break
             case 1:
                 foodNameNode = document.createTextNode("Breakfast Burrito")
                 foodDescriptionNode = document.createTextNode("Flour tortilla, ground beef, rice, egg, guacamole")
-                foodImage.src = "../images/burrito.jpeg"
+                foodImage.src = "./images/burrito.jpeg"
                 foodImage.alt = "Image of breakfast burrito"
                 break
             case 2:
                 foodNameNode = document.createTextNode("El Pollo Frito")
                 foodDescriptionNode = document.createTextNode("Fried chicken, the spiciest of spices")
-                foodImage.src = "../images/friedChicken.jpg"
+                foodImage.src = "./images/friedChicken.jpg"
                 foodImage.alt = "Image of fried chicken"
                 break
             case 3:
                 foodNameNode = document.createTextNode("Quesadilla")
                 foodDescriptionNode = document.createTextNode("Cheese, handmade corn tortillas")
-                foodImage.src = "../images/quesadilla.webp"
+                foodImage.src = "./images/quesadilla.webp"
                 foodImage.alt = "Image of quesadilla"
                 break
             case 4:
                 foodNameNode = document.createTextNode("Cheeseburger")
                 foodDescriptionNode = document.createTextNode("Beef patty, American cheese, brioche buns")
-                foodImage.src = "../images/cheeseBurger.jpg"
+                foodImage.src = "./images/cheeseBurger.jpg"
                 foodImage.alt = "Image of cheeseburger"
                 break
             case 5:
                 foodNameNode = document.createTextNode("[REDACTED]")
                 foodDescriptionNode = document.createTextNode("Unnamed substance")
-                foodImage.src = "../images/meth.jpg"
+                foodImage.src = "./images/meth.jpg"
                 foodImage.alt = "Image of meth"
                 break
             default:

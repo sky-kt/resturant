@@ -18,7 +18,7 @@ export let loadAbout = () => {
     aboutText.setAttribute('id', 'introParagraph')
 
     let ownerPhoto = document.createElement("img")
-    ownerPhoto.src = "../images/gustavo.png"
+    ownerPhoto.src = "./images/gustavo.png"
     ownerPhoto.alt = "Our founder, Gustavo"
     ownerPhoto.setAttribute('id', 'gustavoPFP')
 
